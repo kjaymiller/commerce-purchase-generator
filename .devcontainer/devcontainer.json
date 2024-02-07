@@ -1,0 +1,6 @@
+{
+    "name": "Python Redis and Postgres",
+    "dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+}

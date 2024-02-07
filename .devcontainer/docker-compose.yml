@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    # Add your app configuration here
+    # Main Application service
+    image: python:3.12
+  pg:
+    # Add your PostgreSQL configuration here
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+  redis:
+    # Add your Redis configuration here
+    image: redis:latest
